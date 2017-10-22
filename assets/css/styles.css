@@ -4,9 +4,13 @@ body {
 
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
 
   /* Visual */
-  background-image: url("../imgs/texas-rr-1876-crop.jpg");
+  background-image: url("../imgs/austin-city-print.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 html {
@@ -20,7 +24,7 @@ html {
 /* ---------NAV START---------- */
 
 .navbar-custom {
-  background-color: #BF0A30;
+  background-color: #FA5E14;
 }
 
 
@@ -36,15 +40,16 @@ html {
 
   /* Positioning */
   margin-left: 70px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Raleway', sans-serif;
 
   /* Typography */
-  font-size: 38px;
+  font-size: 54px;
   font-weight: bold;
-  color: #fff;
+  color: #E5E6E2;
+  letter-spacing: 3px;  
 
   /* Visual */
-  background: #002868;
+  background: #1D457F;
 }
 
 .navbar-right-custom {
@@ -53,20 +58,20 @@ html {
   padding-right: 20px;
 
   /* Typography */
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
 
 .navbar-nav > li > a:visited {
-  color: #fff;
+  color: #E5E6E2;
 }
 
 .navbar-nav > li > a:link {
-  color: #fff;
+  color: #E5E6E2;
 }
 
 .navbar-nav > li > a:hover {
-  color: #002868;
+  color: #1D457F;
 }
 
 
@@ -75,12 +80,12 @@ html {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Raleway', sans-serif;
 
   /* Typography */
-  font-size: 38px;
+  font-size: 48px;
   font-weight: bold;
-  color: #002868;
+  color: #1D457F;
 }
 
 .about-me-content {
@@ -92,7 +97,7 @@ html {
   margin-top: 38px;
 
   /* Visual */
-  background-color: rgb(255, 255, 200);
+  background-color: #E5E6E2;
 }
 
 .about-me-content > p {
@@ -102,11 +107,11 @@ html {
   /* Typography */
   font-size: 16px;
   line-height: 30px;  
-  color: #002868;
+  color: #1D457F;
 }
 
 .about-me-content > p > a {
-  color: #BF0A30;
+  color: #FA5E14;
 }
 
 
@@ -137,18 +142,18 @@ html {
   margin-top: 38px;
 
   /* Visual */
-  background-color: rgb(255, 255, 200);
+  background-color: #E5E6E2;
 }
 
 .connect-with-me-header {
   /* Positioning */
   margin-bottom: 15px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Raleway', sans-serif;
 
   /* Typography */
-  font-size: 31px;
+  font-size: 37px;
   font-weight: bold;
-  color: #002868;
+  color: #1D457F;
 }
 
 .connect-with-me-photo {
@@ -179,7 +184,7 @@ html {
   margin-top: 30px;
 
   /* Visual */
-  background-color: #BF0A30;
+  background-color: #FA5E14;
 }
 
 .text-muted-footer {
@@ -187,7 +192,7 @@ html {
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: #E5E6E2;
 }
 
 .two-toned-footer-color {
@@ -196,7 +201,7 @@ html {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #002868;
+  background-color: #E5E6E2;
 }
 
 /* ----------------- */
@@ -215,19 +220,19 @@ html {
   margin-top: 30px;
 
   /* Visual */
-  background-color: rgb(255, 255, 200);
+  background-color: #E5E6E2;
 }
 
 .contact-form-header,
 .port-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Raleway', sans-serif;
 
   /* Typography */
-  font-size: 38px;
+  font-size: 48px;
   font-weight: bold;
-  color: #002868;
+  color: #1D457F;
 }
 
 #name_input,
@@ -243,7 +248,7 @@ html {
   margin-bottom: 15px;
 
   /* Visual */
-  border-color: #BF0A30;
+  border-color: #FA5E14;
   border-width: 1px;
   border-style: solid;
 }
@@ -259,7 +264,7 @@ html {
 .label-mail {
   /* Typography */
   font-size: 17px;
-  color: #BF0A30;
+  color: #FA5E14;
 }
 
 .contact-hr {
@@ -273,10 +278,10 @@ html {
   font-weight: lighter;
 
   /* Typography */
-  color: #fff;
+  color: #E5E6E2;
 
   /* Visual */
-  background-color: #002868;
+  background-color: #1D457F;
   border: 0;
 }
 
@@ -294,11 +299,11 @@ html {
   padding: 45px 10px 25px 31px;
 
   /* Positioning */
-  margin-top: 30px;
+  margin-top: 38px;
   margin-bottom: 200px;
 
   /* Visual */
-  background-color: rgb(255, 255, 200);
+  background-color: #E5E6E2;
 }
 
 .port-hr {
@@ -325,7 +330,7 @@ html {
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #002868;
+    background-color: #1D457F;
   }
 
   #logo {
@@ -338,15 +343,32 @@ html {
 
     /* Positioning */
     margin-left: 0;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Raleway', sans-serif;
 
     /* Typography */
-    font-size: 44px;
+    font-size: 54px;
     font-weight: bold;
-    color: #fff;
+    color: #E5E6E2;
     text-align: center;
+    letter-spacing: 3px;
 
     /* Visual */
-    background: #002868;
+    background: #1D457F;
+  }
+
+  .connect-with-me-header {
+    text-align: center;
+  }
+
+  .about-me-header {
+    text-align: center;
+  }
+
+  .port-header {
+    text-align: center;
+  }
+
+  .contact-form-header {
+    text-align: center;
   }
 }
