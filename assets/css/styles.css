@@ -337,16 +337,31 @@ html {
 /* ----------------- */
 
 @media only screen and (max-width: 1200px) {
+
+  .port-header {
+    text-align: center;
+  }
+
   #connect-with-me-area {
- 
+
   }
 
   .connect-with-me-header {
     text-align: center;
   }
+
+  .port-imgs {
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+
+  .port-labels {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .navbar-toggle {
     margin-top: 13px;
   }
@@ -386,13 +401,17 @@ html {
 
   }
 
-  .port-header {
-    text-align: center;
+  .port-imgs {
+    margin-left: 25px;
+    margin-bottom: 50px;
   }
 
-  .contact-form-header {
-    text-align: center;
+  .port-labels {
+    margin-left: 25px;
+    margin-right: 25px;
   }
+
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -404,6 +423,7 @@ html {
     text-align: center;
     margin-bottom: 0px;
   }
+
 
   .about-me-content {
 
@@ -418,10 +438,20 @@ html {
     margin-bottom: 0px;
     font-size: 35px;
   }
+
+  .port-imgs {
+    margin-left: 25px;
+    margin-right: 0px;
+  }
+
+  .port-labels {
+    margin-left: 25px;
+    margin-right: 0px;
+  }
 }
 
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 415px) {
   #logo {
     letter-spacing: 2px; 
     font-size: 51px;   
@@ -442,6 +472,19 @@ html {
   .connect-with-me-header {
 
   }
+
+
+  .port-imgs {
+    margin-left: 21px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+
+  .port-labels {
+    margin-left: 21px;
+    margin-right: 50px;
+  }
+
 }
 
 @media only screen and (max-width: 388px) {
@@ -464,6 +507,28 @@ html {
   .connect-with-me-header {
 
   }
+
+  .port-imgs {
+    margin-left: 2px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+  }
+
+  .port-labels {
+    margin-left: 2px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .port-imgs {
+    margin-left: -5px;
+    margin-bottom: 30px;
+  }
+
+  .port-labels {
+    margin-left: -5px;
+  }
 }
 
 @media only screen and (max-width: 354px) {
@@ -484,6 +549,28 @@ html {
   }
 
   .connect-with-me-header {
+    font-size: 30px;
+  }
+
+  #connect-with-me-area {
+    width: 100%;
+  
+    /* Box-model */
+    padding: 20px 20px 33px;
+  
+    /* Positioning */
+    margin-top: 38px;
+  
+    /* Visual */
+    background-color: #E5E6E2;
+  }
+
+  .port-imgs {
+    width: 243px;
+    height: 173px;
+  }
+
+  .port-labels {
 
   }
 }
