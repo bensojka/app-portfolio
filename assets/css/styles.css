@@ -336,13 +336,27 @@ html {
 
 /* ----------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
+  #connect-with-me-area {
+ 
+  }
+
+  .connect-with-me-header {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-toggle {
+    margin-top: 13px;
+  }
+
   .navbar-header {
     background-color: #1D457F;
   }
 
   #logo {
-    width: 100%;
+ 
 
     /* Box-model */
     height: 60px;
@@ -365,11 +379,11 @@ html {
   }
 
   .connect-with-me-header {
-    text-align: center;
+    
   }
 
   .about-me-header {
-    text-align: center;
+
   }
 
   .port-header {
@@ -378,5 +392,120 @@ html {
 
   .contact-form-header {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+  
+  }
+
+  .about-me-header {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .about-me-content {
+
+  }
+
+  #ben-image {
+   height: 100%;
+   width: 100%;
+  }
+
+  .connect-with-me-header {
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+}
+
+
+@media only screen and (max-width: 412px) {
+  #logo {
+    letter-spacing: 2px; 
+    font-size: 51px;   
+  }
+
+  .about-me-header {
+
+  }
+
+  .about-me-content {
+
+  }
+
+  #ben-image {
+
+  }
+
+  .connect-with-me-header {
+
+  }
+}
+
+@media only screen and (max-width: 388px) {
+  #logo {
+    font-size: 45px;   
+  }
+
+  .about-me-header {
+
+  }
+
+  .about-me-content {
+
+  }
+
+  #ben-image {
+
+  }
+
+  .connect-with-me-header {
+
+  }
+}
+
+@media only screen and (max-width: 354px) {
+  #logo {
+    font-size: 38px;   
+  }
+
+  .about-me-header {
+
+  }
+
+  .about-me-content {
+
+  }
+
+  #ben-image {
+
+  }
+
+  .connect-with-me-header {
+
+  }
+}
+
+@media only screen and (max-width: 316px) {
+  #logo {
+    font-size: 32px;  
+  }
+
+  .about-me-header {
+
+  }
+
+  .about-me-content {
+
+  }
+
+  #ben-image {
+
+  }
+
+  .connect-with-me-header {
+
   }
 }
