@@ -529,6 +529,10 @@ html {
   .port-labels {
     margin-left: -5px;
   }
+
+  .connect-with-me-header {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 354px) {
@@ -549,7 +553,7 @@ html {
   }
 
   .connect-with-me-header {
-    font-size: 30px;
+ 
   }
 
   #connect-with-me-area {
