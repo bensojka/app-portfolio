@@ -336,29 +336,61 @@ html {
 
 /* ----------------- */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
 
   .port-header {
     text-align: center;
   }
 
   #connect-with-me-area {
-
+    width: 100%;
   }
 
   .connect-with-me-header {
     text-align: center;
   }
 
+  #portfolio-area {
+    /* Box-model */
+    width: 72%;
+    margin: auto;
+  
+    /* Positioning */
+  }
+
   .port-imgs {
-    margin-left: 100px;
-    margin-bottom: 100px;
+    margin-left: 25px;
+    margin-bottom: 50px;
   }
 
   .port-labels {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
+}
+
+@media only screen and (max-width: 992px) {
+
+  #portfolio-area {
+    /* Box-model */
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+  
+    /* Positioning */
+    margin-top: 38px;
+  }
+
+  .port-imgs {
+    margin-left: 25px;
+    margin-bottom: 50px;
+  }
+
+  .port-labels {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
 }
 
 @media only screen and (max-width: 769px) {
@@ -401,14 +433,23 @@ html {
 
   }
 
+  #portfolio-area {
+    /* Box-model */
+    width: 380px;
+    margin: auto;
+  
+    /* Positioning */
+  }
+
   .port-imgs {
-    margin-left: 25px;
+    margin-left: 21px;
+    margin-right: 0px;
     margin-bottom: 50px;
   }
 
   .port-labels {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 21px;
+    margin-right: 50px;
   }
 
 
@@ -439,15 +480,6 @@ html {
     font-size: 35px;
   }
 
-  .port-imgs {
-    margin-left: 25px;
-    margin-right: 0px;
-  }
-
-  .port-labels {
-    margin-left: 25px;
-    margin-right: 0px;
-  }
 }
 
 
@@ -473,6 +505,15 @@ html {
 
   }
 
+  #portfolio-area {
+    /* Box-model */
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+  
+    /* Positioning */
+    margin-top: 38px;
+  }
 
   .port-imgs {
     margin-left: 21px;
